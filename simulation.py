@@ -45,7 +45,7 @@ safe = [
         allowed_iframe_parents = ["https://google.github.io"]
     ),
     path = "/chat",
-    title = "Athena Chat",
+    title = "Simulation",
 )
 
 def page():
