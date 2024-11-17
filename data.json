@@ -59,12 +59,6 @@
             "phone": "555-4433",
             "email": "yza@example.com",
             "salary": "85000"
-        },
-        {
-            "name": "Koushik",
-            "phone": "Unknown",
-            "email": "Unknown",
-            "salary": "Unknown"
         }
     ]
 }
