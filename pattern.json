@@ -11,12 +11,13 @@
         "\\bmy number is ([0-9\\-]+)"
     ],
     "email": [
-        "\\b(?:email|mail) (?:is|address is) ([\\w\\.-]+@[\\w\\.-]+\\.\\w+)",
+        "\\b(?:email|mail) (?:is|address is|ID is) ([\\w\\.-]+@[\\w\\.-]+\\.\\w+)",
         "\\bmy email is ([\\w\\.-]+@[\\w\\.-]+\\.\\w+)"
     ],
     "salary": [
         "\\b(?:salary|income|pay) (?:is|amount is|is a) ([0-9\\,]+(?:\\.\\d{1,2})?)",
         "\\b(?:my salary|i earn) (?:is|is a) ([0-9\\,]+(?:\\.\\d{1,2})?)",
-        "\\b(?:i make|my pay) (?:is|is a) ([0-9\\,]+(?:\\.\\d{1,2})?)"
+        "\\bi make ([0-9\\,]+(?:\\.\\d{1,2})?)",
+        "\\bmy pay is ([0-9\\,]+(?:\\.\\d{1,2})?)"
     ]
 }
