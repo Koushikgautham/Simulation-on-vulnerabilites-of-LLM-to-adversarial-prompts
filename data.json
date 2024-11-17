@@ -1,0 +1,70 @@
+{
+    "people_data": [
+        {
+            "name": "ABC",
+            "phone": "555-1234",
+            "email": "abc@example.com",
+            "salary": "50000"
+        },
+        {
+            "name": "XYZ",
+            "phone": "555-5678",
+            "email": "xyz@example.com",
+            "salary": "60000"
+        },
+        {
+            "name": "DEF",
+            "phone": "555-9101",
+            "email": "def@example.com",
+            "salary": "55000"
+        },
+        {
+            "name": "GHI",
+            "phone": "555-1122",
+            "email": "ghi@example.com",
+            "salary": "45000"
+        },
+        {
+            "name": "JKL",
+            "phone": "555-3344",
+            "email": "jkl@example.com",
+            "salary": "70000"
+        },
+        {
+            "name": "MNO",
+            "phone": "555-5566",
+            "email": "mno@example.com",
+            "salary": "65000"
+        },
+        {
+            "name": "PQR",
+            "phone": "555-7788",
+            "email": "pqr@example.com",
+            "salary": "80000"
+        },
+        {
+            "name": "STU",
+            "phone": "555-9900",
+            "email": "stu@example.com",
+            "salary": "75000"
+        },
+        {
+            "name": "VWX",
+            "phone": "555-2211",
+            "email": "vwx@example.com",
+            "salary": "90000"
+        },
+        {
+            "name": "YZA",
+            "phone": "555-4433",
+            "email": "yza@example.com",
+            "salary": "85000"
+        },
+        {
+            "name": "Koushik",
+            "phone": "Unknown",
+            "email": "Unknown",
+            "salary": "Unknown"
+        }
+    ]
+}
