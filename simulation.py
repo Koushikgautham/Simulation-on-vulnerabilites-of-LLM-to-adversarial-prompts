@@ -49,7 +49,7 @@ safe = [
 )
 
 def page():
-    mel.chat(transform, title = "Trial Bot", bot_user = "Athena")
+    mel.chat(transform, title = "SIMULATION OF VULNERABILITIES OF LLM AGENTS", bot_user = "LLM")
 
 #write any code or function after this line---------------------------------------------------------
 
@@ -131,16 +131,15 @@ def load_data():
 prompts = load_prompts()
 name, salary, phone, email = load_data()
 
-def query_check(input):
+def query_check(query):
+    query = query.lower()
     for item in prompts:
-        if item['prompt'] == input:
+        if item['prompt'].lower() == query:
             return item['response']
     else:
         return False
 
 def get_information(query):
-    #data = {'name' : name,'salary' : salary, 'phone' : phone, 'email' : email}  # Load the data
-    
     # Normalize the query to lowercase
     query = query.lower()
     
